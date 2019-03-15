@@ -1,0 +1,21 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpileOnly app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alan Jhonnes <alanjhonnes@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/graphql": "^14.0.7",
+    "apollo-server": "^2.4.8",
+    "graphql": "^14.1.1",
+    "typescript": "^3.3.3333"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.32"
+  }
+}
