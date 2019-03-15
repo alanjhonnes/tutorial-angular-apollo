@@ -2,7 +2,7 @@ import { ApolloServer, gql } from 'apollo-server';
 import { schema } from './src/schema';
 
 const server = new ApolloServer({
-    schema: schema,
+  schema: schema,
 });
 
 server.listen().then(({ url }) => {
